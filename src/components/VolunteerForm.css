@@ -1,0 +1,70 @@
+.volunteer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  max-width: 600px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+  text-align: center;
+  position: relative;
+}
+
+.volunteer-icon {
+  font-size: 3rem;
+  color: #00b894;
+  margin-bottom: 1rem;
+  animation: volunteer-bounce 1.5s infinite alternate;
+}
+
+@keyframes volunteer-bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
+
+.volunteer-title {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #28a745;
+  letter-spacing: 1px;
+}
+
+.btn-success {
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-success:hover {
+  background: #218838;
+  color: #fff;
+}
+
+/* Align labels and inputs side by side on larger screens */
+@media (min-width: 600px) {
+  .volunteer-card form .form-group {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  .volunteer-card form .form-group label {
+    flex: 0 0 120px;
+    margin-bottom: 0;
+    font-weight: 500;
+    padding-right: 1rem;
+    text-align: right;
+  }
+  .volunteer-card form .form-group input,
+  .volunteer-card form .form-group textarea {
+    flex: 1 1 auto;
+    margin-bottom: 0;
+  }
+}

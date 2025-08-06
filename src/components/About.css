@@ -1,0 +1,41 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  max-width: 600px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+  text-align: center;
+  position: relative;
+}
+
+.about-icon {
+  font-size: 3rem;
+  color: #00b894;
+  margin-bottom: 1rem;
+  animation: about-bounce 1.5s infinite alternate;
+}
+
+@keyframes about-bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
+
+.about-title {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 1.7;
+}
