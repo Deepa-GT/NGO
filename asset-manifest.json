@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NGO/static/css/main.00521fc3.css",
+    "main.js": "/NGO/static/js/main.c399c34e.js",
+    "static/js/453.e7dad58d.chunk.js": "/NGO/static/js/453.e7dad58d.chunk.js",
+    "index.html": "/NGO/index.html",
+    "main.00521fc3.css.map": "/NGO/static/css/main.00521fc3.css.map",
+    "main.c399c34e.js.map": "/NGO/static/js/main.c399c34e.js.map",
+    "453.e7dad58d.chunk.js.map": "/NGO/static/js/453.e7dad58d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00521fc3.css",
+    "static/js/main.c399c34e.js"
+  ]
+}
