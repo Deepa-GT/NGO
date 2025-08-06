@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-"C:\Users\deepa\Videos\ngo.mp4"
+C:\Users\deepa\Videos\ngo.mp4
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
